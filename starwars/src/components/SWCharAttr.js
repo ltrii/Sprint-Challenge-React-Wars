@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SWChar = props => {
+const SWCharAttr = props => {
   return (
     <div>
       {props.name}
@@ -8,4 +8,4 @@ const SWChar = props => {
   );
 };
 
-export default SWChar;
+export default SWCharAttr;
