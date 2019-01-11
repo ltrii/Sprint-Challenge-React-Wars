@@ -12,7 +12,8 @@ const SWList = props => {
             <div className="charname">
                 <SWChar 
                     key={swchar.created}
-                    name={swchar.name} />
+                    name={swchar.name}
+                    birth_year={swchar.birth_year} />
             </div>
             <div className="charattr">
                 Mass: <SWCharAttr mass={swchar.mass} />
