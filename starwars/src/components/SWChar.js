@@ -3,7 +3,7 @@ import React from 'react';
 const SWChar = props => {
   return (
     <div>
-      {props.name}
+      <h2>{props.name}</h2>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 const SWCharAttr = props => {
   return (
     <div>
-      {props.name}
+      {props.mass}
     </div>
   );
 };

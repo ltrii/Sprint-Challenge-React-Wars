@@ -6,7 +6,7 @@ import SWCharAttr from './SWCharAttr';
 
 const SWList = props => {
   return (
-    <div>
+    <div className="thelist">
       {props.starwarsChars.map(swchar => (
         <div class="charunit">
             <div className="charname">
@@ -15,7 +15,7 @@ const SWList = props => {
                     name={swchar.name} />
             </div>
             <div className="charattr">
-                <SWCharAttr />
+                Mass: <SWCharAttr mass={swchar.mass} />
             </div>
         </div>
       ))}

@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.charunit {
+  background-color: rgb(0,0,0,0.5);
+  max-width: 80%;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.charattr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.95em;
+}
